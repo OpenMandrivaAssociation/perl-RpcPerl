@@ -1,13 +1,13 @@
 %define module   RpcPerl
 
 Name:		perl-%{module}
-Version:	0.1
-Release:	2
+Version:	%perl_convert_version 0.2
+Release:	1
 License:	LGPL or EPL
 Group:		Development/Perl
 Summary:	RPC with a Perl server
 Url:		http://qooxdoo.org/documentation/0.8/rpc_perl
-Source:		https://sourceforge.net/projects/qooxdoo-contrib/files/RpcPerl/%{module}-%{version}.zip
+Source:		http://sourceforge.net/projects/qooxdoo-contrib/files/RpcPerl/0.2/RpcPerl-0.2.zip
 BuildArch:	noarch
 
 %description
@@ -36,3 +36,4 @@ cp -pr Qooxdoo %{buildroot}%{perl_vendorlib}
 
 * Wed Jul 15 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.1-1mdv2010.0
 - first mdv release 
+

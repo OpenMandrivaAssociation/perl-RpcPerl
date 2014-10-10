@@ -3,7 +3,7 @@
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 License:	LGPL or EPL
 Group:		Development/Perl
 Summary:	RPC with a Perl server

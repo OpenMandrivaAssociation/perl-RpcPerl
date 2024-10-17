@@ -7,7 +7,7 @@ Release:	3
 License:	LGPL or EPL
 Group:		Development/Perl
 Summary:	RPC with a Perl server
-Url:		http://qooxdoo.org/documentation/0.8/rpc_perl
+Url:		https://qooxdoo.org/documentation/0.8/rpc_perl
 Source:		http://sourceforge.net/projects/qooxdoo-contrib/files/RpcPerl/0.2/RpcPerl-%{upstream_version}.zip
 BuildArch:	noarch
 
